@@ -1,0 +1,227 @@
+:root {
+  --font-family-main: "Roboto", sans-serif;
+  --font-family-logo: "Raleway", sans-serif;
+  --main-text-color: #757575;
+  --secondary-text-color: #212121;
+  --logo-main-color: #2196f3;
+  --logo-secondary-color: #000000;
+  --body-main-color: #ffffff;
+  --body-secondary-color: #2f303a;
+  --body-third-color: #f5f4fa;
+  --hover-btn-color: #188ce8;
+}
+/* 3 дз */
+body {
+  font-family: var(--font-family-main);
+  background-color: var(--body-main-color);
+  color: var(--main-text-color);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.link:hover,
+.link:focus {
+  color: var(--logo-main-color);
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* Хедер */
+
+.header {
+  background-color: var(--body-main-color);
+}
+a.current {
+  color: var(--logo-main-color);
+}
+
+.header-logo {
+  color: var(--logo-secondary-color);
+  font-family: var(--font-family-logo);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.logo-icon {
+  color: var(--logo-main-color);
+}
+
+.header-link {
+  font-family: var(--font-family-main);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--secondary-text-color);
+}
+
+.contact-link {
+  font-family: var(--font-family-main);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--main-text-color);
+}
+/* Герой */
+.hero {
+  color: var(--body-main-color);
+  background-color: var(--body-secondary-color);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero-btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  align-items: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  text-align: center;
+
+  background-color: var(--logo-main-color);
+  color: var(--body-main-color);
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--hover-btn-color);
+}
+
+/* Блок особливості*/
+.specifics-title {
+  font-size: 14px;
+  line-height: 1.17;
+  text-transform: uppercase;
+
+  color: var(--secondary-text-color);
+}
+
+.specifics-desc {
+  line-height: 1.71;
+
+  color: var(--main-text-color);
+}
+/* Блок чим ми займаємось */
+.we-doing-title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--secondary-text-color);
+}
+/* Наша команда */
+.team {
+  background-color: var(--body-third-color);
+}
+
+.team-title {
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--secondary-text-color);
+}
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+
+  color: var(--secondary-text-color);
+}
+
+.team-job {
+  font-size: 16px;
+  line-height: 1.17;
+  text-align: center;
+
+  color: var(--main-text-color);
+}
+
+.team-list-member {
+  background-color: var(--body-main-color);
+}
+
+/* Футер */
+.footer {
+  background-color: var(--body-secondary-color);
+}
+.footer-logo {
+  font-family: var(--font-family-logo);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.9;
+
+  color: var(--body-main-color);
+}
+.footer-list {
+  font-style: normal;
+  line-height: 1.71;
+}
+.footer-adress {
+  color: var(--body-main-color);
+}
+.footer-contact {
+  color: #ffffff99;
+}
+
+/* Портфоліо */
+.portfolio-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  cursor: pointer;
+
+  color: var(--secondary-text-color);
+  background-color: var(--body-third-color);
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  background-color: var(--logo-main-color);
+  color: var(--body-main-color);
+}
+.portfolio-list-item {
+  background-color: var(--body-main-color);
+}
+.portfolio-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: var(--secondary-text-color);
+}
+.portfolio-desc {
+  font-size: 16px;
+  line-height: 1.88;
+
+  color: var(--main-text-color);
+}
+
+/* Дз 3 */
