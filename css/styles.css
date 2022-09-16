@@ -10,9 +10,6 @@
   --body-third-color: #f5f4fa;
   --hover-btn-color: #188ce8;
 }
-/* *{
-  outline: 2px solid tomato;
-} */
 
 h1,
 h2,
@@ -25,9 +22,16 @@ p {
   margin: 0;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 ul {
   padding-left: 0;
 }
+
 body {
   font-family: var(--font-family-main);
   background-color: var(--body-main-color);
@@ -52,6 +56,7 @@ body {
   margin: 0;
   padding-left: 0;
 }
+
 .link {
   text-decoration: none;
   color: inherit;
@@ -64,7 +69,6 @@ body {
   margin: -1px;
   border: 0;
   padding: 0;
-
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
@@ -77,6 +81,7 @@ body {
   background-color: var(--body-main-color);
   border-bottom: 1px solid #ececec;
 }
+
 a.current {
   color: var(--logo-main-color);
 }
@@ -93,7 +98,6 @@ a.current {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-
   margin-right: 93px;
 }
 
@@ -103,9 +107,6 @@ a.current {
 
 .head-wrapper {
   display: flex;
-}
-.header-item {
-  margin-right: 50px;
 }
 
 .header-nav {
@@ -117,6 +118,7 @@ a.current {
 .header-list {
   display: flex;
   justify-content: center;
+  gap: 50px;
 }
 
 .header-link {
@@ -126,7 +128,6 @@ a.current {
   letter-spacing: 0.02em;
   display: block;
   padding: 32px 0px;
-
   color: var(--secondary-text-color);
 }
 
@@ -135,9 +136,9 @@ a.current {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
-
   color: var(--main-text-color);
 }
+
 .contact-list {
   display: flex;
   align-items: center;
@@ -147,7 +148,9 @@ a.current {
 .contact-item:not(:last-child) {
   margin-right: 50px;
 }
+
 /* Герой */
+
 .hero {
   color: var(--body-main-color);
   background-color: var(--body-secondary-color);
@@ -168,7 +171,6 @@ a.current {
 }
 
 .hero-btn {
-  /* display: inline-block; */
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -191,10 +193,11 @@ a.current {
 }
 
 /* Блок особливості*/
+
 .specific-list {
   display: flex;
-  align-items: center;
 }
+
 .specifics {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -205,13 +208,11 @@ a.current {
   line-height: 1.17;
   text-transform: uppercase;
   margin-bottom: 10px;
-
   color: var(--secondary-text-color);
 }
 
 .specifics-desc {
   line-height: 1.71;
-  /* color: var(--main-text-color); */
 }
 
 .spicifics-item {
@@ -221,6 +222,7 @@ a.current {
 .spicifics-item:not(:last-child) {
   margin-right: 30px;
 }
+
 /* Блок чим ми займаємось */
 
 .we-doing-title {
@@ -230,6 +232,7 @@ a.current {
   color: var(--secondary-text-color);
   margin-bottom: 50px;
 }
+
 .we-doing-item:not(:last-child) {
   margin-right: 30px;
 }
@@ -241,7 +244,9 @@ a.current {
 .we-doing.section {
   padding-top: 0;
 }
+
 /* Наша команда */
+
 .team {
   background-color: var(--body-third-color);
 }
@@ -253,12 +258,12 @@ a.current {
   color: var(--secondary-text-color);
   margin-bottom: 50px;
 }
+
 .team-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-
   color: var(--secondary-text-color);
   margin-bottom: 10px;
 }
@@ -267,9 +272,9 @@ a.current {
   font-size: 16px;
   line-height: 1.17;
   text-align: center;
-
   color: var(--main-text-color);
 }
+
 .team-list {
   display: flex;
 }
@@ -277,6 +282,7 @@ a.current {
 .team-list-member {
   background-color: var(--body-main-color);
 }
+
 .team-list-member:not(:last-child) {
   margin-right: 30px;
 }
@@ -285,34 +291,36 @@ a.current {
   border: 1px solid #ececec;
   border-radius: 0px 0px 4px 4px;
   border-top: none;
-
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
 /* Футер */
+
 .footer {
   background-color: var(--body-secondary-color);
-  padding: 60px;
+  padding: 60px 0;
 }
+
 .footer-logo {
   font-family: var(--font-family-logo);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.9;
-
   color: var(--body-main-color);
-
   margin-bottom: 20px;
   display: block;
 }
+
 .footer-list {
   font-style: normal;
   line-height: 1.71;
 }
+
 .footer-adress {
   color: var(--body-main-color);
 }
+
 .footer-contact {
   color: #ffffff99;
 }
@@ -322,6 +330,7 @@ a.current {
 }
 
 /* Портфоліо */
+
 .portfolio-btn {
   font-family: inherit;
   font-weight: 500;
@@ -329,12 +338,12 @@ a.current {
   line-height: 1.62;
   cursor: pointer;
   letter-spacing: 0.03em;
-
   color: var(--secondary-text-color);
   background-color: var(--body-third-color);
   border-radius: 4px;
-  padding: 6px, 22px;
+  padding: 6px 22px;
   border: transparent;
+  min-width: 73px;
 }
 
 .portfolio-btn:hover,
@@ -342,21 +351,22 @@ a.current {
   background-color: var(--logo-main-color);
   color: var(--body-main-color);
 }
+
 .portfolio-list-item {
   background-color: var(--body-main-color);
 }
+
 .portfolio-title {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-
   color: var(--secondary-text-color);
   margin-bottom: 4px;
 }
+
 .portfolio-desc {
   font-size: 16px;
   line-height: 1.88;
-
   color: var(--main-text-color);
 }
 
@@ -375,6 +385,7 @@ a.current {
   margin-top: 50px;
   gap: 30px;
 }
+
 .portfolio-wrapper {
   border: 1px solid #eeeeee;
   border-top: none;
